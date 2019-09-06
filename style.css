@@ -1,0 +1,79 @@
+body
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav#menu
+{
+    background-color: black;
+    position: fixed;
+    width: 100%; 
+}
+
+nav#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block; 
+          
+}
+
+nav#menu a:hover{
+    color: purple;
+    background-color: gray;
+
+}
+.right {
+    float: right;
+      
+}
+h1{
+    margin: 0;
+}
+
+section#principal
+{
+    background-image: url(tec01.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    color: rgb(10, 10, 10);
+
+}
+div#conteudoprincipal
+{
+    top: 40%;
+    position: relative;
+
+}
+div#conteudoprincipal h1{
+    font-size: 70px;
+}
+
+div#conteudoprincipal h3{
+    font-size: 30px;
+}
+
+div#conteudoprincipal a{
+    font-size: 20px;
+}
+
+a.btn
+{
+    background-color: orange;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 70px;
+
+
+}
+a.btn:hover{
+    background-color: darkorange;
+}
